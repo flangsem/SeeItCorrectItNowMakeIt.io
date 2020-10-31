@@ -7,3 +7,13 @@ body{
 }
 
 .navbar{
+width: 100%;
+background-color:
+}
+
+.navbar a{
+  float: left;
+  width: 25%;
+  color: #423a36;
+
+}

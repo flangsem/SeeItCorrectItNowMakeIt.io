@@ -1,3 +1,7 @@
+*{
+  margin-left: 0px;
+}
+
 body{
   background-color: #f0f0f0;
   font-family: arial Bold, arial;
@@ -15,9 +19,11 @@ background-color: #fff;
 }
 
 .navbar a{
+  padding-left: 1%;
   float: left;
-  width: 25%;
+  width: 24%;
   color: #423a36;
   font-weight: 400;
+  font-size: 17px;
 
 }

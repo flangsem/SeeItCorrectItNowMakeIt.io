@@ -23,3 +23,13 @@ After completing all the steps, you will submit one word-document or pdf that in
 Attachment:
 Website to improve:
  https://www.uat.edu 
+ 
+ 1. vertikal scrolling, ikke horisontal 
+ 
+2. ingen media som distraherer fra innholdet (sterke farger, animasjon)
+
+3. Fontstørrelse som gjør teksten mer lettlest
+
+4. Vet ikke hva hun skal se etter, så hun trenger en klar og logisk struktur, helst en slags meny som er lett å finne og som gir oversikt
+
+5. gjøre siden mer responsiv fordi den ser dårlig ut når den blir minimert?

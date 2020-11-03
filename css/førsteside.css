@@ -20,11 +20,15 @@ z-index: 100;
 
 
 }
+.navbar img{
+  float:left;
+}
 
 .navbar a{
-  padding-left: 1%;
-  float: left;
-  width: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 2.5;
+  width: 24%;
   color: #423a36;
   font-weight: 400;
   font-size: 17px;
@@ -66,4 +70,45 @@ p{
 
 .news{
   width: 100%;
+}
+.hoveddel{
+  padding-top: 65px;
+}
+h1{
+  text-align: center;
+}
+
+.dropbutton {
+  background-color: transparent;
+  color: currentColor;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+ .dropmenudegrees{
+  display: block;
+  margin: auto;
+  width: 20%;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+
+.dropmenulinks {
+  display: none;
+  width: 250px;
+   position: absolute;
+
+}
+
+.dropmenulinks a{ color: white; text-decoration: none;}
+
+.dropmenudegrees:hover .dropmenulinks {display: block;
+  background-color: rgba(0,0,0,0.2);}
+
+
 }

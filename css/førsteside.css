@@ -73,6 +73,8 @@ p{
 }
 .hoveddel{
   padding-top: 65px;
+  position: relative;
+  top: 30px;
 }
 h1{
   text-align: center;
@@ -84,6 +86,7 @@ h1{
   padding: 16px;
   font-size: 16px;
   border: none;
+  
 }
 
  .dropmenudegrees{

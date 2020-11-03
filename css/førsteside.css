@@ -32,8 +32,43 @@ background-color: #fff;
 
 }
 .hoveddel{
-  padding-top: 30px;
+  padding-top: 65px;
 }
 h1{
   text-align: center;
+}
+
+.dropbutton {
+  background-color: transparent;
+  color: currentColor;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+ .dropmenudegrees{
+  display: block;
+  margin: auto;
+  width: 20%;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+
+.dropmenulinks {
+  display: none;
+  width: 250px;
+  position: fixed;
+
+}
+
+.dropmenulinks a{ color: white; text-decoration: none;}
+
+.dropmenudegrees:hover .dropmenulinks {display: block;
+  background-color: rgba(0,0,0,0.2);}
+
+
 }

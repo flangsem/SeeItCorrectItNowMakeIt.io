@@ -8,7 +8,6 @@ body{
   font-family: arial Bold, arial;
   font-size: 16px;
   font-weight: 600;
-
 }
 
 .navbar{
@@ -17,8 +16,6 @@ body{
 width: 100%;
 background-color: #fff;
 z-index: 100;
-
-
 }
 .navbar img{
   float:left;
@@ -37,7 +34,6 @@ position: relative;
   left: 30px;
   text-decoration: none;
 }
-
 .navbar a:hover{
 text-decoration: underline;
 font-weight: bolder;
@@ -49,11 +45,9 @@ font-weight: bolder;
   top: 10px;
 }
 
-
 p{
   top: 100px;
   text-decoration: none;
-
 }
 
 
@@ -105,13 +99,19 @@ p{
   float: right;
 }
 .b1,.b2,.b3,.b4,.b5,.b6{
-  box-shadow: 0.5px 0.7px 0.5px 0.7px;
-  border-radius: 4px;
+  border-style: solid;
+  background-color: #f2f2f2;
   display: inline-block;
   width: 300px;
   height: 300px;
   float: left;
 }
+.b1{border-width:2px 1px 1px 2px;}
+.b2{border-width: 2px 2px 1px 1px;}
+.b3{border-width: 1px 1px 1px 2px;}
+.b4{border-width: 1px 2px 1px 1px;}
+.b5{border-width: 1px 1px 2px 2px;}
+.b6{border-width: 1px 2px 2px 1px;}
 h4{
   text-align: left;
   padding-left: 10px;
@@ -144,7 +144,6 @@ h1{
   padding: 16px;
   font-size: 16px;
   border: none;
-  
 }
 
  .dropmenudegrees{
@@ -153,7 +152,6 @@ h1{
   width: 20%;
   color: black;
   text-decoration: none;
-
 }
 
 
@@ -164,17 +162,13 @@ h1{
   width: 250px;
    position: absolute;
    font-weight: 400;
-
 }
 .dropmenulinks a:hover{
   color: yellow;
-
 }
 
 .dropmenulinks a{ color: white; text-decoration: none;}
 
 .dropmenudegrees:hover .dropmenulinks {display: block;
   background-color: rgba(0,0,0,0.6);}
-
-
 }

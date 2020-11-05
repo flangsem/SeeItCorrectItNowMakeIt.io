@@ -32,7 +32,7 @@ z-index: 100;
   color: #423a36;
   font-weight: 400;
   font-size: 17px;
-  position: relative;
+position: relative;
   top: 30px;
   left: 30px;
   text-decoration: none;
@@ -40,9 +40,9 @@ z-index: 100;
 
 .navbar a:hover{
 text-decoration: underline;
-font-size: 20px;
-
+font-weight: bolder;
 }
+
 .navbar img{
   width: 80px;
   position: relative;
@@ -51,10 +51,7 @@ font-size: 20px;
 
 
 p{
-
-  position: absolute;
   top: 100px;
-  z-index: 1;
   text-decoration: none;
 
 }
@@ -73,11 +70,12 @@ p{
 }
 .hoveddel{
   padding-top: 65px;
-  position: relative;
-  top: 30px;
+
 }
+
 h1{
   text-align: center;
+  padding: 20px;
 }
 
 .dropbutton {
@@ -105,13 +103,18 @@ h1{
   display: none;
   width: 250px;
    position: absolute;
+   font-weight: 400;
+
+}
+.dropmenulinks a:hover{
+  color: #f7022a;
 
 }
 
 .dropmenulinks a{ color: white; text-decoration: none;}
 
 .dropmenudegrees:hover .dropmenulinks {display: block;
-  background-color: rgba(0,0,0,0.2);}
+  background-color: rgba(0,0,0,0.25);}
 
 
 }

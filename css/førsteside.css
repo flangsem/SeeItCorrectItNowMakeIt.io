@@ -60,10 +60,12 @@ top: 100px;
 .social ul li{
 list-style-type: none;
 display: inline;
+
 }
 .social ul li a{
 color: #423a36;
 text-decoration: none;
+width: 9%;
 }
 
 p{
@@ -197,39 +199,48 @@ h1{
 }
 
 }
+.New{
+  font-size: 60px;
+}
 
 .news1{
   position: absolute;
-  left: 100px;
+  left: 10%;
   top: 1600px;
+  font-family: arial, sans-serif;
 }
 
 .news2{
   position:absolute;
-  left: 450px;
+  left: 43%;
   top: 1600px;
+  font-family: arial, sans-serif;
 }
 
 .news3{
   position:absolute;
-  left: 800px;
+  left: 70%;
   top: 1600px;
+  font-family: arial, sans-serif;
 }
 
 .news4{
   position:absolute;
-  left: 50px;
-  top: 2000px;
+  left: 10%;
+  top: 1800px;
+  font-family: arial, sans-serif;
 }
 
 .news5{
   position:absolute;
-  left: 450px;
-  top: 2000px;
+  left: 43%;
+  top: 1800px;
+  font-family: arial, sans-serif;
 }
 
 .news6{
   position:absolute;
-  left: 800px;
-  top: 2000px;
+  left: 70%;
+  top: 1800px;
+  font-family: arial, sans-serif;
 }

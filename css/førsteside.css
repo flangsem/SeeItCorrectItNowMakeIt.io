@@ -35,7 +35,7 @@ z-index: 100;
   font-size: 17px;
 position: relative;
   top: 30px;
-  left: 30px;
+  left: 100px;
   text-decoration: none;
 }
 .navbar a:hover{
@@ -46,7 +46,8 @@ font-weight: bolder;
 .navbar img{
   width: 80px;
   position: relative;
-  top: 10px;
+  top: 15px;
+  left: 30px;
 }
 
 .social {

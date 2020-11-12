@@ -47,6 +47,7 @@ font-weight: bolder;
   left: 30px;
 }
 
+<<<<<<< Updated upstream
 .social {
  position: absolute;
   top: 2100px;
@@ -55,19 +56,9 @@ font-weight: bolder;
   width: 100%;
 
 }
+=======
+>>>>>>> Stashed changes
 
-.social ul li{
-  padding-left: 10px;
-  padding-right: 10px;
-list-style-type: none;
-display: inline;
-
-}
-.social ul li a{
-  text-align: center;
-color: #423a36;
-text-decoration: none;
-}
 
 p{
   top: 100px;
@@ -244,5 +235,78 @@ newsimg img{
     font-size: 16px;
     margin: 4px;
     cursor: pointer;
+
+}
+
+.social {
+ position: absolute;
+  top: 2000px;
+   display: block;
+  margin: 0 auto;
+  width: 100%;
+background-color: #66CCCC;
+}
+
+.social ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+list-style-type: none;
+display: inline;
+
+
+}
+.social ul li a{
+  text-align: center;
+color: #423a36;
+text-decoration: none;
+width: 20%;
+}
+.social ul li a img{
+width: 25px;
+position: relative;
+top: 5px;}
+
+.fb :hover{
+transform: scale(1.2);
+}
+
+#twt hover{
+
+}
+
+#ig hover{
+
+}
+
+#in hover{
+
+}
+
+#yt hover{
+
+}
+
+#twc hover{
+
+
+}
+
+#sc hover{
+
+}
+
+#dc hover{
+
+}
+
+#rd hover{
+
+}
+
+#fl hover{
+
+}
+
+#tt hover{
 
 }

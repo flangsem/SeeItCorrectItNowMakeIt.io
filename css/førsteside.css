@@ -203,8 +203,8 @@ h1{
 .news1{
   position: absolute;
   left: 27%;
-  right: 27.8%;
-  top: 1929px;
+  right: 20.25%;
+  top: 1580px;
   z-index: 100;
   font-size: 28px;
 
@@ -215,10 +215,12 @@ padding-right: 20px;
 }
 
 .newsimg{
-position: absolute;
-top: 1580px;
-left: 27%;
-z-index: 1;
+  position: absolute;
+  left: 27%;
+  right: 20.25%;
+  top: 1580px;
+  z-index: 1;
+
 }
 
 newsimg img{
@@ -274,47 +276,136 @@ width: 25px;
 position: relative;
 top: 5px;}
 
-.fb :hover{
-transform: scale(1.2);
-}
-
-#twt hover{
-
-}
-
-#ig hover{
+.fb{
+visibility: visible;
+text-align: center;
+position: absolute;
+z-index: 2;
 
 }
 
-#in hover{
+.fb:hover{
+    visibility: visible;
+    text-decoration: line-through;
+}
+
+.twt{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
 
 }
 
-#yt hover{
+.twt:hover{
+  visibility: visible;
+  text-decoration: line-through;
+  }
+
+.ig{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
 
 }
-
-#twc hover{
-
-
+.ig:hover{
+  visibility: visible;
+  text-decoration: line-through;
 }
 
-#sc hover{
+.in{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
 
 }
-
-#dc hover{
-
+.in:hover{
+  visibility: visible;
+  text-decoration: line-through;
 }
 
-#rd hover{
+.yt{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
 
 }
-
-#fl hover{
-
+.yt:hover{
+  visibility: visible;
+  text-decoration: line-through;
 }
 
-#tt hover{
+.twc{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
 
+}
+.twc:hover{
+  visibility: visible;
+  text-decoration: line-through;
+}
+
+.sc{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+
+}
+.sc:hover{
+  visibility: visible;
+  text-decoration: line-through;
+}
+
+.dc{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+
+}
+.dc:hover{
+  visibility: visible;
+  text-decoration: line-through;
+}
+
+.rd{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+
+}
+.rd:hover{
+  visibility: visible;
+  text-decoration: line-through;
+}
+
+.fl{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+
+}
+.fl:hover{
+  visibility: visible;
+  text-decoration: line-through;
+}
+
+.tt{
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+
+}
+.tt:hover{
+  visibility: visible;
+  text-decoration: line-through;
 }

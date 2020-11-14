@@ -80,15 +80,19 @@ p{
 
 .news{
   position: absolute;
-  top: 1400px;
+  top: 1365px;
   width: 100%;
   font-size: 25px;
   text-align: center;
 }
 
+/* her får du endret fargen!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 .latestnews{
   position: initial;
  font-size: 35px;
+ background-color: #7dbf7a;
+ line-height: 2.5;
 }
 .explore{
   font-style: italic;
@@ -280,15 +284,15 @@ visibility: visible;
   border-radius: 1px;
 }
 
+@media only screen and (max-width: 1306px){
+  .news{top: 1380px;}
 
+}
 @media only screen and (max-width: 1200px){
 
 #newsimage{
   width: 89%;
   padding-left: 8%;
-  padding-right: 8%;
-  position: relative;
-  left: 10%;
 }
 
   .degrees{
@@ -306,13 +310,13 @@ visibility: visible;
 
 }
 @media only screen and (max-width: 749px){
+
   .news{
-  top: 1430px;
+  top: 1385px;
 }
 #newsimage{
   width: 85%;
-  padding-left: 9%;
-  padding-right: 9%;
+  padding-left: 10%;
 }
 .morenews{
   top: 1900px;
@@ -334,7 +338,8 @@ visibility: visible;
 }
 
 @media only screen and (max-width: 600px){
-  *{
+
+  *{  
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -349,22 +354,17 @@ h1{
 }
 
 #newsimage{
-
   width: 85%;
-  padding-top: 100px;
-  padding-left: 9%;
-  padding-right: 9%;
+  padding-top: 200px;
+  padding-left: 10%;
   margin: 0 auto;
-  position: relative;
-  left: 1%
-
 }
 .news{
-  top: 2200px;
+  top: 2235px;
   padding-top: 50px;
 }
 .morenews{
-  top: 2720px;
+  top: 2840px;
 }
 .news1{
   width: 70%;
@@ -384,7 +384,7 @@ h1{
 }
 .social {
  position: absolute;
-  top: 2800px;
+  top: 3000px;
    display: block;
   margin: 0 auto;
   width: 100%;
@@ -414,6 +414,13 @@ h1{
 
 }
 
+@media only screen and (max-width: 550px){
+
+.news{
+  top: 2235px;
+}
+}
+
 @media only screen and (max-width: 500px){
 
     .degrees{
@@ -424,21 +431,20 @@ h1{
 
 #newsimage{
   padding-top: 200px;
-  padding-left: 9%;
-  padding-right: 9%;
+  padding-left: 11%;
   width: 69%;
-  position: relative;
-  left: 1%;
 }
 .news{
-  top: 2315px;
+  top: 2260px;
 }
 .morenews{
-  top: 2820px;
+  top: 2810px;
 }
 
 .social{
   top: 2930px;
+   padding-left: 15%;
+  padding-right: 15%;
 }
  .dropmenudegrees{
   width: 40%;

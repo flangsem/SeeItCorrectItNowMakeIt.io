@@ -286,6 +286,9 @@ visibility: visible;
 #newsimage{
   width: 89%;
   padding-left: 8%;
+  padding-right: 8%;
+  position: relative;
+  left: 10%;
 }
 
   .degrees{
@@ -308,7 +311,8 @@ visibility: visible;
 }
 #newsimage{
   width: 85%;
-  padding-left: 10%;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 .morenews{
   top: 1900px;
@@ -345,10 +349,15 @@ h1{
 }
 
 #newsimage{
+
   width: 85%;
   padding-top: 100px;
-  padding-left: 10%;
+  padding-left: 9%;
+  padding-right: 9%;
   margin: 0 auto;
+  position: relative;
+  left: 1%
+
 }
 .news{
   top: 2200px;
@@ -418,6 +427,8 @@ h1{
   padding-left: 9%;
   padding-right: 9%;
   width: 69%;
+  position: relative;
+  left: 1%;
 }
 .news{
   top: 2315px;

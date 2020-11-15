@@ -7,7 +7,7 @@
 
 body{
   background-color: #fafafa;
-  font-family: arial Bold, arial;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -123,17 +123,6 @@ font-weight: bolder;
   display: block;
   background-color: rgba(0,0,0,0.6);}
 
-<<<<<<< Updated upstream
-.social {
- position: absolute;
- top: 2100px;
- display: block;
- margin: 0px;
- width: 100%;
-
-}
-=======
->>>>>>> Stashed changes
 
 
 p{
@@ -152,7 +141,7 @@ p{
 
 .news{
   position: absolute;
-  top: 1365px;
+  top: 1400px;
   width: 100%;
   font-size: 25px;
   text-align: center;
@@ -283,7 +272,7 @@ h1{
     cursor: pointer;
     width: 100%;
     position: absolute;
-    top: 1900px;
+    top: 1930px;
 
 }
 .morenews p{
@@ -355,7 +344,7 @@ visibility: visible;
 }
 
 @media only screen and (max-width: 1306px){
-  .news{top: 1380px;}
+  .news{top: 1420px;}
 
 }
 @media only screen and (max-width: 1200px){
@@ -395,7 +384,7 @@ visibility: visible;
     left: -70%;
   }
   .news{
-  top: 1385px;
+  top: 1420px;
 }
 
 #newsimage{
@@ -403,7 +392,7 @@ visibility: visible;
   padding-left: 10%;
 }
 .morenews{
-  top: 1900px;
+  top: 1915px;
 }
 
 .social {
@@ -422,7 +411,6 @@ visibility: visible;
 }
 
 @media only screen and (max-width: 600px){
-
   *{
     margin-left: 0px;
     margin-right: 0px;
@@ -444,11 +432,11 @@ h1{
   margin: 0 auto;
 }
 .news{
-  top: 2235px;
+  top: 2250px;
   padding-top: 50px;
 }
 .morenews{
-  top: 2840px;
+  top: 2855px;
 }
 .news1{
   width: 70%;
@@ -520,15 +508,15 @@ h1{
 }
 
 #newsimage{
-  padding-top: 200px;
+  padding-top: 210px;
   padding-left: 11%;
   width: 69%;
 }
 .news{
-  top: 2260px;
+  top: 2295px;
 }
 .morenews{
-  top: 2810px;
+  top: 2830px;
 }
 
 .social{

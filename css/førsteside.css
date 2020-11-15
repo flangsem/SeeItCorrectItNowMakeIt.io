@@ -51,13 +51,85 @@ font-weight: bolder;
   left: 30px;
 }
 
+
+
+}
+
+
+.menubutton {
+  background-color:black;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  position: absolute;
+  top: 30px;
+  left: 1000px;
+
+
+}
+
+ .Menu{
+  display: block;
+  margin: auto;
+  width: 20%;
+  text-decoration: none;
+
+
+}
+.Menu p{
+  padding-left: 2px;
+  padding-right: 2%;
+  line-height: 2.5;
+  width: 24%;
+  color: #423a36;
+  font-weight: 400;
+  font-size: 17px;
+  position: absolute;
+  top: 30px;
+  left: 570px;
+  text-decoration: none;
+}
+
+.Menu p:hover{
+  text-decoration: underline;
+  font-weight: bolder;
+
+}
+
+.menulinks {
+  display: none;
+  width: 250px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  left: -80%;
+ }
+
+
+.menulinks a:hover{
+  color: yellow;
+}
+
+.menulinks a{
+  position: relative;
+  left: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.Menu:hover .menulinks {
+  display: block;
+  background-color: rgba(0,0,0,0.6);}
+
 <<<<<<< Updated upstream
 .social {
  position: absolute;
-  top: 2100px;
-   display: block;
-  margin: 0px;
-  width: 100%;
+ top: 2100px;
+ display: block;
+ margin: 0px;
+ width: 100%;
 
 }
 =======
@@ -181,8 +253,6 @@ h1{
 }
 
 
-
-
 .dropmenulinks {
   display: none;
   width: 250px;
@@ -289,7 +359,16 @@ visibility: visible;
 
 }
 @media only screen and (max-width: 1200px){
-
+  .Menu p{
+    position: absolute;
+    left: -30%;
+    top: 0px;
+  }
+  .menubutton{
+    position: absolute;
+    top: 43px;
+    left: -60%;
+  }
 #newsimage{
   width: 89%;
   padding-left: 8%;
@@ -310,10 +389,15 @@ visibility: visible;
 
 }
 @media only screen and (max-width: 749px){
-
+  .Menu p{
+    position: absolute;
+    top: 43px;
+    left: -70%;
+  }
   .news{
   top: 1385px;
 }
+
 #newsimage{
   width: 85%;
   padding-left: 10%;
@@ -339,7 +423,7 @@ visibility: visible;
 
 @media only screen and (max-width: 600px){
 
-  *{  
+  *{
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -373,6 +457,12 @@ h1{
   width: 100%;
 }
 .navbar a{
+  margin: 0px;
+  left: 0px;
+  text-align:left;
+  width: 4%;
+}
+.navbar p{
   margin: 0px;
   left: 0px;
   text-align:left;
